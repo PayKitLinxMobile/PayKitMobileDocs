@@ -9,7 +9,7 @@ Para ser redirecionado à nossa documentação online clique em [**MobileSDK Doc
 ## Binários e Release Notes
 Você pode encontrar os binários e release notes nos links a seguir:
 
-- [DTEFMobile](/Versoes/dtefmobile/README.md)
+- [DTEFMobile](/Releases/dtefmobile/README.md)
 
 ## Suporte à homologação
 Contato:

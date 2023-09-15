@@ -10,6 +10,13 @@
 ### Binários
 - [dtefmobile-v2.7.4](https://grupolinx-my.sharepoint.com/:f:/r/personal/ped_payhub_tef_linx_com_br/Documents/Instaladores-DevCenterMobile/sdk-mobile/releases/v2.7.4?csf=1&web=1&e=x98WQ3)
 
+## Versão 2.7.3.3
+    Descrição: versão 2.7.3.3 + features
+    Data: 14/09/2023
+
+### Correções e implementações
+- Inclusão de melhorias na conexão com Pinpad Bluetooth.
+
 ## Versão 2.7.3.2
     Descrição: versão 2.7.3.1 + bugfix
     Data: 21/08/2023

@@ -10,6 +10,18 @@
 ### Binários
 - [dtefmobile-v2.7.4](https://grupolinx-my.sharepoint.com/:f:/r/personal/ped_payhub_tef_linx_com_br/Documents/Instaladores-DevCenterMobile/sdk-mobile/releases/v2.7.4?csf=1&web=1&e=x98WQ3)
 
+## Versão 2.7.3.4
+    Descrição: versão 2.7.3.4 + features + bugfixes
+    Data: 13/10/2023
+
+### Correções e implementações
+- Inclusão de parâmetro para informar o tipo da transação a ser cancelada na transação de cancelamento.
+- Inclusão de callback para passagem de dados para automação durante o fluxo da transação.
+- Alteração no fluxo de frota, tornando opcional o parâmetro de tipo de abastecimento, para realizar coleta quando não informado no JSON.
+- Correções no processamento da lista de produtos no fluxo de Frota.
+- Correção para não permitir a entrada do cartão digitado após cenário de “Modo inválido”, quando a opção de permitir digitação está desabilitada.
+- Implementação de parâmetro para permitir que a automação informe o(s) produto(s) cielo desejados (desde que habilitados na inicialização).
+
 ## Versão 2.7.3.3
     Descrição: versão 2.7.3.3 + features
     Data: 14/09/2023

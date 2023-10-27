@@ -120,6 +120,13 @@
 ### Binários
 - [dtefmobile-v2.7.0]()
 
+## Versão 2.6.6.2
+    Descrição: versão 2.6.6 + features
+    Data: 26/10/2023
+
+### Correções e implementações
+- Inclusão no MobileSDK da inicialização passando o context.
+
 ## Versão 2.6.6.1
     Descrição: versão 2.6.6 + bugfix
     Data: 03/08/2023

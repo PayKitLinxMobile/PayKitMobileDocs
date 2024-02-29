@@ -1,14 +1,59 @@
 # RELEASE NOTES
 
-## Versão 2.7.4
-    Descrição: versão 2.7.3.2 + features
-    Data: 25/08/2023
+## Versão 2.7.7
+    Descrição: versão 2.7.6.1 + bugfixes na 2.7.5.x
+    Data: 22/12/2023
 
 ### Correções e implementações
-- Inclusão da transação de Split de Pagamento.
+- Correções de roteamento bin (já certificadas na homologação da versão 2.7.5.3).
+- Implementação para retornar o campo NSU REDE adicional (com até 32 dígitos para suportar o NSU REDE da STONE).
 
 ### Binários
-- [dtefmobile-v2.7.4](https://grupolinx-my.sharepoint.com/:f:/r/personal/ped_payhub_tef_linx_com_br/Documents/Instaladores-DevCenterMobile/sdk-mobile/releases/v2.7.4?csf=1&web=1&e=x98WQ3)
+- [dtefmobile-v2.7.7](https://grupolinx-my.sharepoint.com/:f:/g/personal/ped_payhub_tef_linx_com_br/Eimof-rBDapLqPYPi5-qrqIBnhJtq46lObYIbtJB9rUe2w?e=qVhKb8)
+
+## Versão 2.7.6.1
+    Descrição: versão 2.7.6 + bugfix
+    Data: 05/12/2023
+
+### Correções e implementações
+- Correção na identificação do tamanho das tabelas de roteamento.
+
+## Versão 2.7.6
+    Descrição: versão 2.7.5 + certificação com a Rede
+    Data: 29/11/2023
+
+### Correções e implementações
+- Inclusão da especificação L0701 da Rede.
+
+## Versão 2.7.5.3
+    Descrição: versão 2.7.5.2 + features
+    Data: 21/12/2023
+
+### Correções e implementações
+- Alteração para priorizar o roteamento bin em relação ao contexto.
+- Alteração para priorizar o contexto específico (diferente de zero).
+
+## Versão 2.7.5.2
+    Descrição: versão 2.7.5.1 + bugfix
+    Data: 19/12/2023
+
+### Correções e implementações
+- Correção no processamento de roteamento bin.
+
+## Versão 2.7.5.1
+    Descrição: versão 2.7.5 + bugfix
+    Data: 05/12/2023
+
+### Correções e implementações
+- Correção na identificação do tamanho das tabelas de roteamento.
+
+## Versão 2.7.5
+    Descrição: versão 2.7.4 + 2.7.3.4 + features
+    Data: 20/11/2023
+
+### Correções e implementações
+- Inclusão de transação com cartão pré-pago.
+- Inclusão de parâmetro para informar o produto desejado, possibilitando pagamento em carnê.
 
 ## Versão 2.7.3.4
     Descrição: versão 2.7.3.4 + features + bugfixes
@@ -46,9 +91,6 @@
 ### Correções e implementações
 - Correções na PPComp referente à comunicação com pinpad bluetooth (certificação Cielo).
 
-### Binários
-- [dtefmobile-v2.7.3.1]()
-
 ## Versão  2.7.3
     Descrição: versão 2.7.2.1 + Banrisul
     Data: 27/07/2023
@@ -57,18 +99,12 @@
 - Criptografia dos dados sensíveis com a chave do Banrisul.
 - Implementação dos comandos 91 e 92 para viabilizar a criptografia em transação digitada.
 
-### Binários
-- [dtefmobile-v2.7.3]()
-
 ## Versão 2.7.2.1
     Descrição: versão 2.7.2 + bugfix
     Data: 24/07/2023
 
 ### Correções e implementações
 - Correção no processamento do retorno das tags emv na PP_GOONCHIP - ABECS.
-
-### Binários
-- [dtefmobile-v2.7.2.1]()
 
 ## Versão 2.7.2
     Descrição: versão 2.7.1 + features
@@ -79,18 +115,12 @@
 - Transação especial para obter identificação do perfil do mapa de chaves.
 - Correção da impressão para o P2 com perfil “parceiros”.
 
-### Binários
-- [dtefmobile-v2.7.2]()
-
 ## Versão 2.7.1.1
     Descrição: versão 2.7.1 + bugfix
     Data: 24/07/2023
 
 ### Correções e implementações
 - Correção no processamento do retorno das tags emv na PP_GOONCHIP - ABECS.
-
-### Binários
-- [dtefmobile-v2.7.1.1]()
 
 ## Versão 2.7.1
     Descrição: versão 2.7.0 + certificação MP15 (Cielo)
@@ -103,9 +133,6 @@
   - Obs.: a implementação do protocolo ABECS foi realizada na comunicação com pinpads 
   bluetooth. Para os demais dispositivos é utilizado a BC do fabricante.
 
-### Binários
-- [dtefmobile-v2.7.1]()
-
 ## Versão 2.7.0
     Descrição: versão 2.6.5 + features
     Data: 05/05/2023
@@ -116,9 +143,6 @@
 - Seleção automática do mapeamento das chaves de acordo com o perfil identificado.
 - Reconhecimento do pinpad bluetooth MP-15.
 - Implementação para permitir a leitura do KSN através da transação especial.
-
-### Binários
-- [dtefmobile-v2.7.0]()
 
 ## Versão 2.6.6.2
     Descrição: versão 2.6.6 + features
@@ -134,9 +158,6 @@
 ### Correções e implementações
 - Correção da mensagem "Retire o cartão" na transação por aproximação (K2).
 
-### Binários
-- [dtefmobile-v2.6.6.1]()
-
 ## Versão 2.6.6
     Descrição: versão 2.6.5 + features
     Observação: Em certificação Banrisul
@@ -146,9 +167,6 @@
 - Em certificação com o Banrisul.
 - Customizações necessárias para o Sunmi K2.
 
-### Binários
-- [dtefmobile-v2.6.6]()
-
 ## Versão 2.6.5-build-2306081649
     Descrição: versão 2.6.5 + features
     Observação: Build 2306081649
@@ -156,9 +174,6 @@
 
 ### Correções e implementações
 - Incluído perfil “parceiros-stone” na inicialização do SmartPrinterService.
-
-### Binários
-- [dtefmobile-v2.6.5-2306081649]()
 
 ## Versão 2.6.5
     Descrição: versão 2.6.4 + features
@@ -168,9 +183,6 @@
 - Certificada pela Cielo.
 - Inclusão do mapeamento das chaves da Cielo.
 
-### Binários
-- [dtefmobile-v2.6.5]()
-
 ## Versão 2.6.4
     Descrição: versão 2.6.3 + features
     Data: 11/08/2022 
@@ -178,6 +190,3 @@
 ### Correções e implementações
 - Certificada pela SafraPay.
 - Inclusão do mapeamento das chaves da Safra.
-
-### Binários
-- [dtefmobile-v2.6.4]()

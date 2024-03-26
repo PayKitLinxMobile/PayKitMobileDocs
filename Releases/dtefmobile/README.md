@@ -1,5 +1,77 @@
 # RELEASE NOTES
 
+## Versão 2.7.9.2
+    Descrição: versão 2.7.9.1 + bugfix
+    Data: 22/02/2024
+
+### Correções e implementações
+- Incremento do buffer de processamento das tabelas.
+
+### Binários
+- [dtefmobile-v2.7.9.2](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/Ef7Qh5TZjglEuKVKo7sCLE4BjEN8BJ3si9q_Q-PMBz6vvQ?e=CodfJO)
+
+## Versão 2.7.9.1
+    Descrição: versão 2.7.9 + bugfix
+    Data: 07/02/2024
+
+### Correções e implementações
+- Correção de ocorrência de exception após carga de tabelas.
+
+### Binários
+- [dtefmobile-v2.7.9.1](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EfVYvkEbEhBPsPgGsjeBqYQBRYIWpN1jW7hDdK2kgOHRmA?e=4I9Wpw)
+
+## Versão 2.7.9
+    Descrição: versão 2.7.8 + features
+    Data: 22/01/2024
+
+### Correções e implementações
+- Incluído suporte ao totem Samsung Khadas.
+- Incluído suporte ao terminal Adyen.
+- Alteração para compatibilizar a resposta dos logs (comando 45) com a versão do GatewayPOS
+Verti.
+
+### Binários
+- [dtefmobile-v2.7.9](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EWgGlHn9FklDlZ2smVed-IQBVF-uCKfbznVvwVRr5OmeXA?e=rCzECs)
+
+## Versão 2.7.8.2
+    Descrição: versão 2.7.8.1 + bugfix
+    Data: 21/03/2024
+
+### Correções e implementações
+- Alteração para não retornar o campo NSU Rede Adicional no campo NSU Rede.
+
+## Versão 2.7.8.1
+    Descrição: versão 2.7.8 + bugfix
+    Data: 07/02/2024
+
+### Correções e implementações
+- Correção de ocorrência de exception após carga de tabelas.
+
+## Versão 2.7.8
+    Descrição: versão 2.7.7 + features
+    Data: 22/12/2023
+
+### Correções e implementações
+- Incluído suporte ao totem GS300.
+- Incluído comando para reset da USB em caso de falha de comunicação com o pinpad USB.
+
+## Versão 2.7.7.2
+    Descrição: versão 2.7.7.1 + features
+    Data: 11/03/2024
+
+### Correções e implementações
+- Implementação para compatibilidade com o GPOS760.
+- Incluído suporte a mais de 99 registros por adquirente na carga da tabela (convertido o formato do
+campo de índice da tabela para alfanumérico).
+
+## Versão 2.7.7.1
+    Descrição: versão 2.7.7 + bugfixes
+    Data: 14/02/2024
+
+### Correções e implementações
+- Correção no fluxo de frota (relacionado ao tipoAbastecimento e valorTotal).
+- Correção de ocorrência de exception após carga de tabelas.
+
 ## Versão 2.7.7
     Descrição: versão 2.7.6.1 + bugfixes na 2.7.5.x
     Data: 22/12/2023

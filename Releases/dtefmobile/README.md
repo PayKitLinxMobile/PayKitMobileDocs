@@ -1,5 +1,26 @@
 # RELEASE NOTES
 
+## Versão 2.7.10
+    Descrição: versão 2.7.9.2 + 2.7.7.1 + features + bugfixes
+    Data: 26/03/2024
+
+### Correções e implementações
+- Incluído suporte ao totem Gertec SK-210.
+- Incluído suporte ao terminal Gertec GPOS-780.
+- Incluído campo de identificação do terminal para enviar ao GatewayPOS.
+- Correção no fluxo de frota (relacionado ao tipoAbastecimento e valorTotal).
+- Correção de ocorrência de exception após carga de tabelas.
+
+### Binários
+- [dtefmobile-v2.7.10](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EdOPic2g9mtFr1MAlhunhr8BU29PQlTZUNM-gmgxiJbUrA?e=MxBaAa)
+
+## Versão 2.7.9.3
+    Descrição: versão 2.7.9.2 + features
+    Data: 09/04/2024
+
+### Correções e implementações
+- Incluídos novos parâmetros para permitir a automação informar os dados de parcelamento no débito Banrisul.
+
 ## Versão 2.7.9.2
     Descrição: versão 2.7.9.1 + bugfix
     Data: 22/02/2024

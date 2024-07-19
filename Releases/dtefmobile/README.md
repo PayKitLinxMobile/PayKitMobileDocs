@@ -148,6 +148,13 @@ campo de índice da tabela para alfanumérico).
 - Inclusão de transação com cartão pré-pago.
 - Inclusão de parâmetro para informar o produto desejado, possibilitando pagamento em carnê.
 
+## Versão 2.7.4
+    Descrição: versão 2.7.3.2 + features
+    Data: 25/08/2023
+
+### Correções e implementações
+- Inclusão da transação de Split de Pagamento.
+
 ## Versão 2.7.3.4
     Descrição: versão 2.7.3.4 + features + bugfixes
     Data: 13/10/2023

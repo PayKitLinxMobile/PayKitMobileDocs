@@ -1,5 +1,38 @@
 # RELEASE NOTES
 
+## Versão 2.7.12
+    Descrição: versão 2.7.11 + 2.7.10.5 + 2.7.8.8
+    Data: 06/08/2024
+
+### Correções e implementações
+- Integração das versões.
+
+### Binários
+- [dtefmobile-v2.7.12](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EUSys9CnOntKkisXPasP924Bt2657-po52mouqsErymcfA?e=VkoC36)
+
+## Versão 2.7.11
+    Descrição: versão 2.7.10.1 + 2.7.7.2 + implementações
+    Data: 07/06/2024
+
+### Correções e implementações
+- Incluída integração com GPOS780 e GPOS760.
+- Melhoria de desempenho na comunicação com pinpad USB.
+- Correção para suportar Android 64 bits
+
+### Binários
+- [dtefmobile-v2.7.11](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EeD_BqbmYZdJhk2xIjAHPOkB_S02ZHORMEZJd342kCh9iA)
+
+## Versão 2.7.10.1
+    Descrição: versão 2.7.10 + correção
+    Data: 27/05/2024
+
+### Correções e implementações
+- Melhoria de desempenho na comunicação com pinpad USB.
+- Incluídas as opções CDC, WITH_INSTALMENT_CASH e WITHOUT_INSTALMENT_CASH no Enum FinancialType (opções suportadas apenas pelo Banrisul/Vero).
+
+### Binários
+- [dtefmobile-v2.7.10.1](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/ETHi7DXcPH9Hvgs4x_Gph7wB7wfV32altmL0IcW6gPAa7Q)
+
 ## Versão 2.7.10
     Descrição: versão 2.7.9.2 + 2.7.7.1 + features + bugfixes
     Data: 26/03/2024

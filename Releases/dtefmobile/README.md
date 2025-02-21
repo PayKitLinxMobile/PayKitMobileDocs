@@ -1,17 +1,5 @@
 # RELEASE NOTES
 
-## Versão 2.7.14.5
-    Descrição: versão 2.7.13 + implementações
-    Data: 17/12/2024
-
-### Correções e implementações
-- Implementação da transação de consulta de planos para rede Calcard.
-- Inclusão de novos parâmetros para que a AC informe os dados obrigatórios para transação com a rede Calcard (número do cartão digitado, validade do cartão, código do plano selecionado e código da bandeira associada).
-- Ajuste para permitir transação com número de parcelas = 1 com a rede Calcard.
-
-### Binários
-- [dtefmobile-v2.7.14.5](https://grupolinx-my.sharepoint.com/:u:/g/personal/ped_payhub_tef_linx_com_br/EXWQU5pL1YNPmi5Y5FvzUF8Bj-gKHA8bQzH-sV2UwyAEKA?e=3oh2uw)
-
 ## Versão 2.7.13
     Descrição: versão 2.7.12.1 + implementações
     Data: 10/10/2024
